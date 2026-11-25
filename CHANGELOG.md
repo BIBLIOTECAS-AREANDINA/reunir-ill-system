@@ -12,3 +12,9 @@
 
 - Presentación web interactiva `presentacion/index.html` (animaciones, recorrido por las 7 fases, flujo paso a paso). Logo oficial de REUNIR (tomado de reunir.com.co). Se agrega a Nelly Herrera Vargas como coordinadora actual.
 - Presentación: escena de la consola de Apps Script (activadores y ejecuciones) y escena interactiva "Pruébalo" con simulador de solicitud (no envía nada) y QR al formulario público.
+
+## 2026-11-25 — v16 (auditoría)
+- Hoja Bibliotecas como única fuente (correo, días, activo; columna de estado automática)
+- Corrección de páginas de aprobación (target _top), destinatarios por etapa, botón de devolución solo a la prestamista
+- Revisión cada hora, pendientes que se reanudan solos, registro de cada correo en el Historial
+- Identidad REUNIR en correos y páginas; pruebas en tests/

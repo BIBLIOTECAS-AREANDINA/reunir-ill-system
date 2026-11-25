@@ -81,6 +81,12 @@ Correos/día: 100 (cuenta personal) · 1.500 (Workspace). Ejecución: 6 min por 
 
 Versión animada para proyectar (flechas del teclado o botones; tecla F = pantalla completa): [`presentacion/`](presentacion/index.html). Con GitHub Pages: https://bibliotecas-areandina.github.io/reunir-ill-system/presentacion/
 
+## ✅ Pruebas
+
+`node tests/prueba.js` simula los servicios de Google y recorre el flujo entre todas las bibliotecas sin enviar correos.
+
+Detalle de la auditoría: [`docs/AUDITORIA_2026-11-25.md`](docs/AUDITORIA_2026-11-25.md). Desde la v16 la hoja **Bibliotecas** manda (correo, días, activo), la revisión es cada hora y el botón de devolución lo recibe la prestamista.
+
 ## 🔐 Notas de seguridad
 
 El repositorio es público: **no subas** el ID del Sheet, la URL del Web App ni correos reales. Las acciones de los correos pasan por una página de confirmación, usan bloqueo contra dobles clics y escapan los parámetros mostrados.
